@@ -1,0 +1,320 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = null;
+    ViewData["Title"] = "CDR Writing Services for Engineers | CDRAustralia.Org";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <meta name="description" content="CDRAustralia.Org helps engineers prepare CDR, KA02, RPL, NER and AACA reports for skilled migration to Australia, New Zealand and Canada. Free consultation available.">
+    <meta name="keywords" content="CDR Writing Services, Engineers Australia, CDR Report, KA02, RPL, NER, AACA, IEPNG, Engineering Migration">
+    <link rel="icon" href="~/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="canonical" href="https://cdraustralia.runasp.net/">
+    <meta name="google-site-verification" content="iZUYk2bBJjkwKCa_meGKhkkqVuvur6iP-tuCvfimq4Y" />
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span><i class="fa-solid fa-location-dot"></i> Level 8/145 Crown St, Sydney NSW 2000, Australia</span>
+            <div class="top-right">
+                <a href="tel:+61291917405"><i class="fa-solid fa-phone"></i> +61 2 9191 7405</a>
+                <a href="mailto:Contact@CDRAustralia.Org"><i class="fa-solid fa-envelope"></i> Contact@CDRAustralia.Org</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAV -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <img src="~/images/logo.png" alt="CDRAustralia.Org logo">
+                <div>
+                    <h2>CDRAustralia.Org</h2>
+                    <span>CDR Writing Services</span>
+                </div>
+            </a>
+
+            <nav id="navbar">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#services">Services <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#services">CDR Assessment</a></li>
+                            <li><a href="#services">KA02</a></li>
+                            <li><a href="#services">RPL</a></li>
+                            <li><a href="#services">NER</a></li>
+                            <li><a href="#services">AACA</a></li>
+                            <li><a href="#services">IEPNG</a></li>
+                            <li><a href="#services">EGM Manitoba</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://cdraustralia.org/tips/">Blogs</a></li>
+                    <li><a href="https://cdraustralia.org/reviews/">Reviews</a></li>
+                    <li><a href="https://cdraustralia.org/cdr-sample/">Samples</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://cdraustralia.org/free-quote/" class="quote-btn">Free Quote</a>
+
+            <button id="mobile-toggle" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div id="mobile-menu">
+            <ul>
+                <li class="mobile-dropdown">
+                    <button class="mobile-dropdown-toggle">Services <i class="fa-solid fa-angle-down"></i></button>
+                    <ul class="mobile-submenu">
+                        <li><a href="#services">CDR Assessment</a></li>
+                        <li><a href="#services">KA02</a></li>
+                        <li><a href="#services">RPL</a></li>
+                        <li><a href="#services">NER</a></li>
+                        <li><a href="#services">AACA</a></li>
+                        <li><a href="#services">IEPNG</a></li>
+                        <li><a href="#services">EGM Manitoba</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://cdraustralia.org/tips/">Blogs</a></li>
+                <li><a href="https://cdraustralia.org/reviews/">Reviews</a></li>
+                <li><a href="https://cdraustralia.org/cdr-sample/">Samples</a></li>
+                <li><a class="mobile-quote" href="https://cdraustralia.org/free-quote/">Free Quote</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- HERO -->
+    <section class="hero" id="top">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="badge">Engineering Skills Assessment Support</span>
+                <h1>CDR Writing Services for Engineers Migrating to Australia</h1>
+                <p>
+                    We help engineers prepare Competency Demonstration Reports (CDR), KA02, RPL, NER
+                    and AACA assessments so they can meet Engineers Australia's requirements and move
+                    forward with their skilled migration application.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://cdraustralia.org/free-quote/" class="btn-primary">Get Free Quote</a>
+                    <a href="https://wa.me/+61291917405" class="btn-secondary" target="_blank" rel="noopener">WhatsApp Us</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <h3>Why Engineers Choose Us</h3>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i> Written to Engineers Australia guidelines</li>
+                    <li><i class="fa-solid fa-circle-check"></i> 100% original, plagiarism-free content</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Unlimited revisions until you're satisfied</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Confidential, one-to-one support</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Fast turnaround times</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <span>OUR SERVICES</span>
+                <h2>Report Writing Support for Every Assessment Pathway</h2>
+                <p>Whichever authority you're applying through, our writers prepare reports that meet the specific format and competency requirements for your pathway.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <h3><a href="https://cdraustralia.org/cdr-assessment/">CDR Assessment</a></h3>
+                    <p>Engineers Australia compliant Competency Demonstration Reports prepared by experienced engineering writers.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h3><a href="https://cdraustralia.org/ipenz/kao2/">KA02 Report</a></h3>
+                    <p>KA02 competency assessment reports for engineers applying through Engineering New Zealand.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3><a href="https://cdraustralia.org/our-services/acs/rpl-writing-services/">ACS RPL</a></h3>
+                    <p>Recognition of Prior Learning reports for ICT professionals applying through ACS Australia.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-user-check"></i>
+                    <h3><a href="https://cdraustralia.org/ner/">NER</a></h3>
+                    <p>National Engineering Register application documents prepared by engineering professionals.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-city"></i>
+                    <h3><a href="https://cdraustralia.org/aaca/">AACA Skills Assessment</a></h3>
+                    <p>Documentation support for architects applying through the AACA in Australia.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-earth-oceania"></i>
+                    <h3>IEPNG & EGM Manitoba & Others</h3>
+                    <p>CBA Report writing support for Papua New Guinea (<a href="https://cdraustralia.org/iepng/">IEPNG</a>) and EGM Manitoba (<a href="https://cdraustralia.org/enggeomb/">PENG Manitoba</a>) & other engineering authorities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US / STATS -->
+    <section class="why-us section" id="about">
+        <div class="container why-grid">
+            <div>
+                <span class="section-tag">ABOUT US</span>
+                <h2>Trusted by Engineers Worldwide</h2>
+                <p><a href="https://cdraustralia.org/">CDRAustralia.Org</a> has helped thousands of engineers prepare competency reports for migration to Australia, New Zealand and Canada, guiding them through every stage of the assessment process.</p>
+                <ul class="check-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Engineers Australia guidelines followed closely</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Experienced, qualified engineering writers</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Fully confidential service</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Unlimited revision support</li>
+                </ul>
+            </div>
+            <div class="stats-box">
+                <div class="stat"><h2>15+</h2><p>Years Experience</p></div>
+                <div class="stat"><h2>12,000+</h2><p>Reports Delivered</p></div>
+                <div class="stat"><h2>98%</h2><p>Success Rate</p></div>
+                <div class="stat"><h2>24/7</h2><p>Support</p></div>
+            </div>
+        </div>
+    </section>
+    <!-- PROCESS -->
+    <section class="process section">
+        <div class="container">
+            <div class="section-title">
+                <span>OUR PROCESS</span>
+                <h2>A Simple, Transparent Process</h2>
+            </div>
+            <div class="process-grid">
+                <div class="step">
+                    <span>01</span>
+                    <h3>Submit Requirements</h3>
+                    <p>Share your CV, qualification documents and engineering experience with us.</p>
+                </div>
+                <div class="step">
+                    <span>02</span>
+                    <h3>Expert Writing</h3>
+                    <p>Our engineering writers prepare your report to the required guidelines.</p>
+                </div>
+                <div class="step">
+                    <span>03</span>
+                    <h3>Review & Delivery</h3>
+                    <p>You review the draft and receive revisions before final submission.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Skills Assessment?</h2>
+            <p>Speak with our engineering migration experts today and receive a free assessment of your case.</p>
+            <a href="https://cdraustralia.org/free-quote/" class="btn-primary">Request Free Quote</a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <span>CONTACT US</span>
+                <h2>Talk to Our CDR Writing Experts</h2>
+                <p>Get a free consultation about your engineering skills assessment.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div><h3>Office Address</h3><p>Level 8/145 Crown St,<br>Sydney NSW 2000, Australia</p></div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <div><h3>Australia</h3><a href="tel:+61291917405">+61 2 9191 7405</a></div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <div><h3>New Zealand</h3><a href="tel:+6498879053">+64 9 887 9053</a></div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <div><h3>Canada</h3><a href="tel:+16476009575">+1 647 600 9575</a></div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <div><h3>India</h3><a href="tel:+919650572343">+91 96505 72343</a></div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div><h3>Email</h3><a href="mailto:Contact@CDRAustralia.Org">Contact@CDRAustralia.Org</a></div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <script src="https://www.emailmeform.com/builder/forms/jsform/3SOp01XrtfQ5CUbvaks9H" type="text/javascript"></script>
+                    <form method="post" style="display:none;">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="text" name="country" placeholder="Country">
+                        <input type="text" name="discipline" placeholder="Engineering Discipline">
+                        <textarea name="message" rows="6" placeholder="Tell us about your requirements"></textarea>
+                        <button type="submit" class="btn-primary">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <img src="~/images/logo.png" class="footer-logo" alt="CDRAustralia.Org">
+                <p>CDRAustralia.Org is a competency assessment report writing service supporting engineers pursuing skilled migration worldwide.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/cdrhelpaustralia" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/cdraustraliaea" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/cdraustraliaorg/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCVG8w8aobi4WL3qmhN9bfEw" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                    <a href="http://au.linkedin.com/company/cdraustralia-org/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; 2026 CDRAustralia.Org | All Rights Reserved.</div>
+    </footer>
+
+    <a href="https://wa.me/+61291917405" class="whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp us">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button id="topBtn" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="~/js/script.js"></script>
+</body>
+</html>
