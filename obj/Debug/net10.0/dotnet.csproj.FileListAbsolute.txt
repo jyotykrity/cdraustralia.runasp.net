@@ -361,4 +361,4 @@ C:\laragon\app\dotnet\obj\Debug\net10.0\dotnet.pdb
 C:\laragon\app\dotnet\obj\Debug\net10.0\dotnet.genruntimeconfig.cache
 C:\laragon\app\dotnet\obj\Debug\net10.0\ref\dotnet.dll
 C:\laragon\app\dotnet\obj\Debug\net10.0\compressed\ktq3uyrtgd-{0}-mqkf6fwiq5-mqkf6fwiq5.gz
-C:\laragon\app\dotnet\obj\Debug\net10.0\compressed\dbsgt31e1b-{0}-wuf906848q-wuf906848q.gz
+C:\laragon\app\dotnet\obj\Debug\net10.0\compressed\dbsgt31e1b-{0}-d1zf579ur1-d1zf579ur1.gz
