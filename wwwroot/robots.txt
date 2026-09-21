@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://cdraustralia.runasp.net/sitemap.xml
